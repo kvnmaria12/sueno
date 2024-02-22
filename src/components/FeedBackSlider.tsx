@@ -1,6 +1,4 @@
 import { useState } from 'react';
-import { FaArrowRight } from 'react-icons/fa';
-import { FaArrowLeft } from 'react-icons/fa';
 import { MdKeyboardArrowRight } from 'react-icons/md';
 import { MdKeyboardArrowLeft } from 'react-icons/md';
 

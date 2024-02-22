@@ -1,6 +1,4 @@
-import badgeSvg from '/svgs/badge.svg';
 import bookSvg from '/svgs/book.svg';
-import chatSvg from '/svgs/chat.svg';
 import { FaArrowRight } from 'react-icons/fa';
 import { Swiper, SwiperSlide } from 'swiper/react';
 

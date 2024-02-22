@@ -11,7 +11,11 @@ const FeedBack = () => {
 
       <div className='md:flex'>
         {/* image */}
-        <div className='bg-slate-50 md:bg-transparent mt-5 rounded-lg m-5'>
+        <div
+          className='bg-slate-50 md:bg-transparent mt-5 rounded-lg m-5'
+          data-aos='fade-up'
+          data-aos-duration='1000'
+        >
           <img
             src={testimonialImg}
             alt='testimonial image'

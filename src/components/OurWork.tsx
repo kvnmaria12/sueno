@@ -14,7 +14,7 @@ import { Navigation } from 'swiper/modules';
 const OurWork = () => {
   return (
     <div className='h-full flex'>
-      <div className='w-[75%]'>
+      <div className='w-[75%]' data-aos='fade-right' data-aos-duration='1000'>
         <Swiper
           navigation={true}
           modules={[Navigation]}

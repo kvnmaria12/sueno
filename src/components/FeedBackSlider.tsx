@@ -12,7 +12,11 @@ const FeedBackSlider = () => {
   const { image, rating, name, feedBack } = feedBacks[selectedIndex];
 
   return (
-    <div className='md:w-[700px] md:mt-16'>
+    <div
+      className='md:w-[700px] md:mt-16'
+      data-aos='fade-left'
+      data-aos-duration='1000'
+    >
       {/* testimonal */}
       <div className='bg-white border-2 m-5 p-5 rounded-2xl'>
         <div className='flex items-center gap-3 '>

@@ -6,6 +6,8 @@ const Form = () => {
       <form
         action=''
         className='rounded-lg m-5 shadow-grey-100 shadow-lg shadow-slate-300'
+        data-aos='fade-up'
+        data-aos-duration='1000'
       >
         <div className='md:flex'>
           <div className='p-5 w-full'>

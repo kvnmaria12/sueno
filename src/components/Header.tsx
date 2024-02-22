@@ -21,12 +21,12 @@ const Header = () => {
               the 1500s, when an unknown printer took a galley of type and
               scrambled it to make a type specimen book.
             </p>
-            <div className='flex gap-5 mt-2 mb-5'>
-              <div className='flex items-center text-center bg-[#F5F5F5] p-3 rounded-lg gap-1'>
+            <div className='flex flex-col gap-5 '>
+              <div className='h-14 flex items-center text-center bg-[#F5F5F5] p-3 rounded-lg gap-1'>
                 <FaWhatsapp className='text-2xl text-[#1A86B8]' />
                 <h3 className='text-xl'>Contact Us</h3>
               </div>
-              <div className='flex items-center text-center bg-[#F5F5F5] p-2 rounded-lg gap-1'>
+              <div className='h-14 w-full flex items-center text-center bg-[#F5F5F5] p-2 rounded-lg gap-1'>
                 <MdOutlineEmail className='text-2xl text-[#20AD96]' />
                 <h3 className='text-xl'>suenoang@gmail.com</h3>
               </div>
@@ -177,6 +177,7 @@ const Header = () => {
               the 1500s, when an unknown printer took a galley of type and
               scrambled it to make a type specimen book.
             </p>
+
             <div className='flex gap-5 mt-2 mb-5 ml-2'>
               <div className='flex items-center text-center bg-[#F5F5F5] p-3 rounded-lg gap-1'>
                 <FaWhatsapp className='text-2xl text-[#1A86B8]' />
